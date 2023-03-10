@@ -1,0 +1,23 @@
+.microsoftSQL {
+    background-image: url('/DBGestors/Microsoft SQL Server.jpg');
+}
+
+.mongoDB {
+    background-image: url('/DBGestors/MongoDB.png');
+}
+
+.mySQL {
+    background-image: url('/DBGestors/MySQL2.png');
+}
+
+.postgreSQL {
+    background-image: url('/DBGestors/PostgreSQL.jpg');
+}
+
+.sqlLite {
+    background-image: url('/DBGestors/SQLite2.png');
+}
+
+.versat {
+    background-image: url('/DBGestors/Versat.png');
+}

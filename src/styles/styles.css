@@ -1,0 +1,41 @@
+
+/*-------------------------------------------------------------------------------------*/
+
+.bg-services {
+    background-image: url('/Services/servicesImage(blur)2.png');
+}
+/*-------------------------------------------------------------------------------------*/
+
+.outline {
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+.outline2{    
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.3px;
+}
+
+/*-------------------------------------------------------------------------------------*/
+
+.active {
+    font-size: larger;
+    color: yellowgreen;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0px;
+    border-bottom-width: 4px;
+    border-bottom-color: yellowgreen;
+}
+
+.carousel-item.active {
+    border-width: 0px;
+}
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
