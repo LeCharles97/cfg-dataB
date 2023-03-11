@@ -22,6 +22,7 @@ function App() {
       <About />
       <Services />
       <Tools />
+      <Form />
 
       <FooterHome />
       
