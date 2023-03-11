@@ -7,6 +7,7 @@ import {
   Tools,
   FooterHome,
   About,
+  Form,
   Services,
 } from "./Components/index";
 
