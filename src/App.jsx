@@ -7,7 +7,6 @@ import {
   Tools,
   FooterHome,
   About,
-  Form,
   Services,
 } from "./Components/index";
 
@@ -22,7 +21,6 @@ function App() {
       <About />
       <Services />
       <Tools />
-      <Form />
 
       <FooterHome />
       
