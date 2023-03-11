@@ -11,7 +11,7 @@ export function FooterHome() {
         {/*------------------------------------- */}
         {/*Logo Info*/}
         <ul className="flex justify-center gap-1">
-          <li><img src="/cfg logo/Logo(white).png" className="w-12"/></li>
+          <li><img src="./cfg logo/Logo(white).png" className="w-12"/></li>
           <li className="my-auto">Guinart's Databases</li>
         </ul>
         {/*#end Logo Info */}

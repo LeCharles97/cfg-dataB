@@ -25,7 +25,7 @@ export function About() {
           <div className="flex text-5xl gap-5">
             <h1>Hello </h1>
             {/*<motion.h1>👋</motion.h1>*/}
-            <img src="/waving-hand.gif" className="w-10 h-10 my-auto" />
+            <img src="./waving-hand.gif" className="w-10 h-10 my-auto" />
           </div>
           <motion.p ref={myRef} className=" pt-5" animate={{translateX: elementVisible ? 0 : 50, opacity: elementVisible ? 1 : 0}} transition={{duration: 0.3}}>
             I am Carlos, a database manager based in Cuba. I manage all kind of

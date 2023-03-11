@@ -44,7 +44,7 @@ export function HomeImage() {
             </Canvas>
           </div>
 
-          <img src="/cfg logo/Logo.png" className="z-20 w-48 mx-auto" />
+          <img src="./cfg logo/Logo.png" className="z-20 w-48 mx-auto" />
           <div className="z-30 bg-gradient-to-br from-cyan-400 to-lime-400 text-transparent bg-clip-text text-center text-6xl text-cyan-300 pb-7">
             <p>Guinart's Company Services</p>
           </div>

@@ -37,7 +37,7 @@ export function Navbar() {
         {/*------------------------------------- */}
         {/*Logo Link*/}
         <div to="/" className="my-4 flex text-cyan-200 ">
-          <img src="/cfg logo/Logo.png" className="w-16 h-16" />
+          <img src="./cfg logo/Logo.png" className="w-16 h-16" />
           <ul className="grid grid-cols-1 my-auto ml-2 text-xs">
             <li>
               <p>Guinart's</p>
