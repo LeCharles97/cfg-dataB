@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+{/*import emailjs from "@emailjs/browser";*/}
 import { Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
@@ -9,7 +9,7 @@ export function Form() {
   const inputStyle = "rounded-lg mr-5 focus:outline-none pl-1";
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    /*e.preventDefault();
 
     emailjs
       .sendForm(
@@ -27,7 +27,7 @@ export function Form() {
           console.log(error.text);
           alert("An error ocurred");
         }
-      );
+      );*/
   };
 
   return (
