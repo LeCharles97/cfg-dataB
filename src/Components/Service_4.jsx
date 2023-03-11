@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Service_4(props) {
-  const { nodes, materials } = useGLTF('/3D objects/Service_4/Service_4-transformed.glb')
+  const { nodes, materials } = useGLTF('./3D objects/Service_4/Service_4-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Circle.geometry} material={materials.Tuerca_Material} />
@@ -17,4 +17,4 @@ export function Service_4(props) {
   )
 }
 
-useGLTF.preload('/3D objects/Service_4/Service_4-transformed.glb')
+useGLTF.preload('./3D objects/Service_4/Service_4-transformed.glb')

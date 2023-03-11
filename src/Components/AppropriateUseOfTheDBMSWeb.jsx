@@ -7,7 +7,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Service_2(props) {
-  const { nodes, materials } = useGLTF('/3D objects/Service_2/AppropriateUseOfTheDBMSWeb-transformed.glb')
+  const { nodes, materials } = useGLTF('./3D objects/Service_2/AppropriateUseOfTheDBMSWeb-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <mesh geometry={nodes.Database.geometry} material={materials.Database_Material}>
@@ -29,4 +29,4 @@ export function Service_2(props) {
   )
 }
 
-useGLTF.preload('/3D objects/Service_2/AppropriateUseOfTheDBMSWeb-transformed.glb')
+useGLTF.preload('./3D objects/Service_2/AppropriateUseOfTheDBMSWeb-transformed.glb')
