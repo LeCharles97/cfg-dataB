@@ -13,7 +13,7 @@ export function About() {
         {/**----------------------------------------- */}
         {/**Avatar Image */}
         <div className="my-auto basis-1/6 md:basis-2/6 lg:basis-1/6">
-          <img src="/avatar.jpg" className="lg:w-52 mx-auto  md:w-44 w-44 rounded-full" />
+          <img src="./avatar.jpg" className="lg:w-52 mx-auto  md:w-44 w-44 rounded-full" />
         </div>
 
         {/**#end Avatar Image */}
