@@ -1,4 +1,4 @@
-import { Slider } from "infinite-react-carousel";
+/*import { Slider } from "infinite-react-carousel";*/
 import { Sphere, MeshDistortMaterial } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 
@@ -78,14 +78,14 @@ export function Tools() {
 
         {/*------------------------------------- */}
         {/*Carousel*/}
-        <Slider className="my-20 rounded-full overflow-hidden mx-16" autoplay={true}>
+       { /*<Slider className="my-20 rounded-full overflow-hidden mx-16" autoplay={true}>
           {carouselImages.map((e) => (
             <div
               key={e.title}
               className={`${e.title} ${carouselImagesPropertys}`}
             />
           ))}
-          </Slider>
+          </Slider>*/}
         {/*------------------------------------- */}
         {/*#end Carousel*/}
       </section>
